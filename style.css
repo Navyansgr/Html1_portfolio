@@ -1,0 +1,271 @@
+/* General Styling */
+/* Style for the first page */
+body {
+  background: linear-gradient(120deg, #1e90ff, #ff7f50);
+  height: 100vh;
+  margin: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+  
+  /* Header Styling */
+  header {
+    background-color: #004aad;
+    color: rgb(57, 26, 26);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #b68a11;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    color: #f0e68c;
+  }
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: rgb(162, 37, 137);
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  header nav ul li a:hover {
+    color: #f0e68c;
+  }
+  
+  /* Main Section Styling */
+  main {
+    padding: 20px;
+  }
+  
+  section h2 {
+    color: #004aad;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+/* Resume Section Styling */
+#resume {
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  padding: 50px 20px;
+  text-align: center;
+  color: #333;
+}
+
+#resume h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+#resume p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Resume Content Layout */
+.resume-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.resume-section {
+  flex: 1 1 45%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.resume-section h3 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.resume-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resume-section li {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+/* Skills Styling */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+/* Action Buttons */
+.resume-actions {
+  margin-top: 30px;
+}
+
+.resume-actions .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: white;
+  background: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.resume-actions .btn:hover {
+  background: #0056b3;
+}
+/* Style for the profile container */
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between image and text */
+  margin: 20px 0;
+}
+
+/* Style for the profile picture */
+.profile-pic {
+  width: 150px; /* Adjust size */
+  height: 150px;
+  border-radius: 50%; /* Circular shape */
+  border: 2px solid #ccc; /* Optional border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro button {
+  background-color: #004aad;
+  color: rgb(53, 178, 76);
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+.intro button:hover {
+  background-color: #b68a11;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #280606;
+  border: 2px solid #004aad;
+  padding: 15px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  color: #004aad;
+}
+
+.project-card p {
+  color: #555;
+}
+
+/* Skills Section */
+.skills-bar {
+  margin-top: 30px;
+}
+.skill {
+    margin-bottom: 15px;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+  }
+  
+  .skill-bar span {
+    display: block;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .skill span {
+    font-size: 1.2em;
+    color: #004aad;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #004aad;
+    color: rgb(168, 65, 113);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+   
+  /* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #004aad;
+    color: rgb(116, 103, 103);
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+
+  
+  form button:hover {
+    background-color: #f0e68c;
+  }
